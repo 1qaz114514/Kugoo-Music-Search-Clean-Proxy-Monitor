@@ -1,0 +1,29 @@
+# 忽略临时文件和构建输出
+build/
+dist/
+__pycache__/
+*.pyc
+
+# 忽略日志文件
+*.log
+C:\KuGouFilterLogs/
+
+# 忽略备份文件
+*.backup*
+
+# 忽略打包配置文件
+*.spec
+
+# 忽略环境文件
+.env
+venv/
+
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
